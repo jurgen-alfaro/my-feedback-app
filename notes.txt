@@ -22,3 +22,11 @@ Hooks:
 
 useState() => You need this to update the state of a functional component
   const [rating, setRating] = useState(7);
+
+Whenever you use the map() function you need to return a value. 
+To return a value, make sure you use parenthesis if there's only one line! 
+<div className='feedback-list'>
+  {feedback.map((item) => (
+    <FeedbackItem key={item.id} item={item} />
+  ))}
+</div>
