@@ -2,5 +2,8 @@ No need to import React in the components
 
 
 PropTypes = type checking
-- Specify what type a variable has
-- Recommended to make the app more robust. 
+- Specify what type a variable is to make the app more robust.
+
+There are libraries to style components
+- Material UI
+- Styled components
