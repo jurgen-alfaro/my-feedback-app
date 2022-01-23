@@ -7,3 +7,18 @@ PropTypes = type checking
 There are libraries to style components
 - Material UI
 - Styled components
+
+State = data
+There are two types of State
+1. Component level state
+---- This is specific to the component, no other component needs to access this.
+2. App level state
+---- The state is shared among other components in the app
+
+The state in react is something inmutable, so it cannot be changed directly. 
+That is why you need to use hooks, to reset the value(s) of the state. 
+
+Hooks: 
+
+useState() => You need this to update the state of a functional component
+  const [rating, setRating] = useState(7);
