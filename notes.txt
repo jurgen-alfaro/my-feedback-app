@@ -30,3 +30,6 @@ To return a value, make sure you use parenthesis if there's only one line!
     <FeedbackItem key={item.id} item={item} />
   ))}
 </div>
+
+The './src/shared/' folder is used to share components amongs the app. All the components that should be used in different places should bee in here.
+
