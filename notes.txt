@@ -1,0 +1,6 @@
+No need to import React in the components
+
+
+PropTypes = type checking
+- Specify what type a variable has
+- Recommended to make the app more robust. 
