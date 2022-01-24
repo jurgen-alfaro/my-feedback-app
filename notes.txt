@@ -59,3 +59,9 @@ Whenever you need to show other routes within a specific component, use this:
 
 Context
 Is a way to provide data through the component tree. This is the way to go! 
+
+git init
+git add .
+git commit -m "Message"
+git add remote origin "http://url.com" 
+git push -u origin main
