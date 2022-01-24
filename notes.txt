@@ -33,3 +33,16 @@ To return a value, make sure you use parenthesis if there's only one line!
 
 The './src/shared/' folder is used to share components amongs the app. All the components that should be used in different places should bee in here.
 
+React Router DOM ==> Remember this was updated to v6!!!
+
+BrowserRouter
+- This uses the HTML5 history API to keep the UI in sync with URL
+
+HashBrowser
+- This uses the hash portion of the URL to keep it in sync
+
+Example
+If you use the hash and you want to go to about, you would do http://localhost:3000/#about
+But we actually want to go to http://localhost:3000/about This is why BrowserRouter is used instead of HashBrowser
+
+For v6 to work, you need to use 'element' instead 'component', and need to return JSX (<ComponentName />)
