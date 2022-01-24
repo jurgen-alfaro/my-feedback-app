@@ -46,3 +46,5 @@ If you use the hash and you want to go to about, you would do http://localhost:3
 But we actually want to go to http://localhost:3000/about This is why BrowserRouter is used instead of HashBrowser
 
 For v6 to work, you need to use 'element' instead 'component', and need to return JSX (<ComponentName />)
+
+Use <Link> for routing. When using a regular <a> tag, the routing refreshes the page. We don't want that, we want the routing to occur directly on the client side without having to refresh
