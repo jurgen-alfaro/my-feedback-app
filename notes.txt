@@ -65,3 +65,15 @@ git add .
 git commit -m "Message"
 git add remote origin "http://url.com" 
 git push -u origin main
+
+HTTP Status codes
+1xx: Informational
+--- Request received / processing
+2xx: Success
+--- Successfully received
+3xx: Redirect
+--- Further action must be taken / Redirect
+4xx: Client Error
+--- Request does no have what it needs
+5xx: Server Error
+--- Server failed to fulfill a valid Request
