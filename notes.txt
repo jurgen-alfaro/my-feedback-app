@@ -23,6 +23,11 @@ Hooks:
 useState() => You need this to update the state of a functional component
   const [rating, setRating] = useState(7);
 
+useParams() => This is to get the params from an URL
+  const params = useParams()
+  // To use
+  {params.name}
+
 Whenever you use the map() function you need to return a value. 
 To return a value, make sure you use parenthesis if there's only one line! 
 <div className='feedback-list'>
@@ -48,3 +53,9 @@ But we actually want to go to http://localhost:3000/about This is why BrowserRou
 For v6 to work, you need to use 'element' instead 'component', and need to return JSX (<ComponentName />)
 
 Use <Link> for routing. When using a regular <a> tag, the routing refreshes the page. We don't want that, we want the routing to occur directly on the client side without having to refresh
+
+Whenever you need to show other routes within a specific component, use this: 
+<Route path="/post/*" element={<Post />}/>  
+
+Context
+Is a way to provide data through the component tree. This is the way to go! 
